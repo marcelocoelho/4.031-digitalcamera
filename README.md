@@ -40,13 +40,13 @@ Follow this example to add an LED. Make sure that you change pin numbers to refl
 https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/
 
 
-## 3. Add a Button
+## 4. Add a Button
 
 Follow this example to add a button:
 
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
 
-## 4. Add a Rotary Encoder
+## 5. Add a Rotary Encoder
 
 Use the example included wih the Github repo. This example also requires a library that you will need to install by going to Tools > Manage Libraries and search for rotaryencoder. Look for the library by Matthias Hertel.
 
@@ -57,11 +57,11 @@ SW works like a regular button if you press down the rotary encoder. Code is not
 This video has a good explanation of how the encoder works if you are curious:
 https://www.youtube.com/watch?v=v4BbSzJ-hz4&ab_channel=HowToMechatronics
 
-## 5. Run A_Joystick
+## 6. Run A_CameraController
 
 Now adapt your electronics to run the A_CameraController code provided. You will need an encoder, and LED and a button. But you can start with just a button and see if you can get it to control something in your computer similar to how your keyboard does. On the Mac you can use Photobooth to take photos.
 
-## 6. Now design your own camera interface
+## 7. Now design your own camera interface
 
 Once you can control a camera using your Arduino, it's time to think about what the most appropriate camera interface for your project. Here are a few questions to help you think through the problem:
 
