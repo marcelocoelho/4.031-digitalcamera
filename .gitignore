@@ -1,5 +1,8 @@
 .DS_Store
 
+P5_Camera/node_modules/
+P5_Camera/package-lock.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

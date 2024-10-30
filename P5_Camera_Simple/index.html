@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera Capture with p5.js</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+  <h1>Camera Capture with p5.js</h1>
+  <div id="canvasContainer"></div>
+  <button id="captureButton">Take Photo</button>
+  <p>Or take a photo by ENTER key</p>
+  <script>
+    let video;
+    let captureImage;
+
+    function setup() {
+      // Create the canvas and place it inside the container div
+      let canvas = createCanvas(1280, 480);
+      canvas.parent('canvasContainer');
+      
+      // Create a video capture element
+      video = createCapture(VIDEO);
+      video.size(640, 480);
+      video.hide(); // Hide the default video element
+      
+      // Set up button actions
+      document.getElementById('captureButton').addEventListener('click', takePhoto);
+    }
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        takePhoto();
+      }
+  });
+
+    function draw() {
+      // Display the video feed on the canvas
+      image(video.get(), 0, 0);
+      if (captureImage) {
+        image(captureImage, 640, 0);
+      }
+    }
+
+    function takePhoto() {
+      captureImage = video.get();
+      save(captureImage, 'myPhoto.jpg');
+    }
+
+  </script>
+</body>
+</html>
