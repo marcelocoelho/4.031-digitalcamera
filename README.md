@@ -1,8 +1,9 @@
 # 4.031 Digital Camera - Code Samples - 2024 Edition
 
-There are a few different code samples that you can use to build your camera. Look at the readme.md file in each folder for more information on how to use them.
+These are a few different code samples that you can use to build your camera. Look at the readme.md file in each folder for more information on how to use them.
 
 **A_CameraController**
+
 Arduino code that takes input from a button and encoder and sends to the computer by using the Arduino as a keyboard. 
 
 **Helper Sketches**
