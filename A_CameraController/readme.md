@@ -1,5 +1,5 @@
 
-# 4.031 Digital Camera Code Sample
+# Arduino Camera Controller
 
 ## 1. Download Arduino IDE
 

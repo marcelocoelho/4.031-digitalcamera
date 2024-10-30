@@ -1,4 +1,4 @@
-# p5js Camera
+# P5.js Camera using node and vite
 
 This is a simple template for a camera app that combines P5.js sketch and Vite for code autorefresh.
 
