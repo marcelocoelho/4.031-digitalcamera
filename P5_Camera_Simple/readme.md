@@ -1,0 +1,1 @@
+To run this example, you can just double click the index.html file. Make sure you you are connected to the internet so p5js library can be loaded.

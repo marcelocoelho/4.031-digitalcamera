@@ -1,5 +1,5 @@
 
-# 4.031 Digital Camera Code Sample - 2024 Edition
+# 4.031 Digital Camera Code Sample
 
 ## 1. Download Arduino IDE
 
