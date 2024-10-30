@@ -2,8 +2,7 @@
 
 These are a few different code samples that you can use to build your camera. Look at the readme.md file in each folder for more information on how to use them.
 
-**A_CameraController**
-
+**A_CameraController**  
 Arduino code that takes input from a button and encoder and sends to the computer by using the Arduino as a keyboard. 
 
 **Helper Sketches**
