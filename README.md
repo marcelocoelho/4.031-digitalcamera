@@ -1,4 +1,4 @@
-# 4.031 Digital Camera - Code Samples - 2024 Edition
+# 4.031 Digital Camera - Code Samples
 
 These are a few different code samples that you can use to build your camera. Look at the readme.md file in each folder for more information on how to use them.
 
