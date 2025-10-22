@@ -3,7 +3,7 @@
 
 ## How to use this script:
 
-1. Install OpenCV: You can install it using pip with the command pip install opencv-python.
+1. Install OpenCV: You can install it using pip with the command 'pip install opencv-python'
 2. Run the script.
 3. Press 'c' to capture an image.
 4. Press 'q' to exit the camera feed.

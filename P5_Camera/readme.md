@@ -8,7 +8,7 @@ This is a simple template for a camera app that combines P5.js sketch and Vite f
 
 ## Requirements
 
-This template requires a recent version of Node.js, recommended version 16 or later.
+This template requires a recent version of Node.js, recommended version 16 or later. Follow installation instructions here: [Node.js](https://nodejs.org/en/download)
 
 Clone the repository with git or download the code from the repository as a zip file.
 
